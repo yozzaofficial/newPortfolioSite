@@ -1,28 +1,33 @@
-header.mainHeader{
+header.mainHeader {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     position: relative;
     align-items: center;
     padding-top: 20px;
-    i{
+    margin-bottom: 100px;
+
+    i {
         display: inline-block;
         width: 30px;
         height: 30px;
         position: absolute;
-        left:85%;
+        left: 85%;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         cursor: pointer;
     }
-    i.volumeOn{
+
+    i.volumeOn {
         background-image: url("./../../assets/volumeOn.png");
     }
-    i.volumeOff{
+
+    i.volumeOff {
         background-image: url("./../../assets/volumeOff.png");
     }
 }
-h1{
-    color:#FFFFFF;
+
+h1 {
+    color: #FFFFFF;
     font-size: 1.4em;
 }
