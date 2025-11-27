@@ -1,5 +1,5 @@
 .trainercard {
-    width: 600px;
+    width: 500px;
     height: 250px;
     background-color: #AB4967;
     border-radius: 10px;
@@ -56,7 +56,8 @@
 }
 
 .trainerInfo li:nth-of-type(3) p:nth-of-type(2) {
-    font-size: 0.65em;
+    font-size: 0.5em;
+    text-align: right;
 }
 
 .trainerInfo p {
@@ -69,7 +70,10 @@
 .trainerIcons {
     width: 40%;
     height: 200px;
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
 .trainerCardHeader {
@@ -98,4 +102,61 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: 3px;
+}
+
+.starContainer {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+.starContainer .star {
+    width: 25px;
+    height: 25px;
+    background-image: url("./../../assets/pixel-star.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.iconTrainer {
+    width: 120px;
+    height: 100px;
+    background-image: url("./../../assets/trainer-icon.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.linksContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gitHub-icon {
+    width: 20px;
+    height: 20px;
+    background-image: url("./../../assets/github-logo.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.linkedin-icon {
+    width: 20px;
+    height: 20px;
+    background-image: url("./../../assets/linkedin-logo.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mail-icon {
+    width: 20px;
+    height: 20px;
+    background-image: url("./../../assets/mail-logo.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }

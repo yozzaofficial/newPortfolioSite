@@ -1,5 +1,8 @@
+import React from "react"
 import "./css/TrainerCard.css"
+import StarIcon from "./StarIcon"
 import TrainerInfo from "./trainerInfo"
+
 export default function TrainerCard() {
     return (
         <div className="trainercard">
@@ -11,9 +14,15 @@ export default function TrainerCard() {
             <div className="trainerCardInfoContainer">
                 <TrainerInfo />
                 <div className="trainerIcons">
-                    <div className="starContainer"></div>
-                    <div className="iconTraienr"></div>
-                    <div className="linksContainer"></div>
+                    <div className="starContainer">
+                        <StarIcon />
+                    </div>
+                    <div className="iconTrainer"></div>
+                    <div className="linksContainer">
+                        <a ><div className="gitHub-icon"></div></a>
+                        <a><div className="linkedin-icon"></div></a>
+                        <a><div className="mail-icon"></div></a>
+                    </div>
                 </div>
             </div>
         </div>
