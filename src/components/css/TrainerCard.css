@@ -120,12 +120,14 @@
 }
 
 .iconTrainer {
-    width: 120px;
-    height: 100px;
+    width: 130px;
+    height: 110px;
     background-image: url("./../../assets/trainer-icon.png");
     background-position: center;
-    background-size: cover;
+    background-size: 90%;
     background-repeat: no-repeat;
+    border: 1px solid #d9d9d9b1;
+    border-radius: 10px;
 }
 
 .linksContainer {

@@ -3,7 +3,7 @@ const project = [{
     name: "Matteo Advice",
     description: "Matteo Advice is a small website created to recommend movies and TV series. The site allows users to explore my favorite movies and series, see what I am currently watching, and manage their own preferences.",
     code: "React",
-    link: "",
+    link: "https://www.matteogranchelli.it/matteo-advice-logo.png",
     level: 75,
     hp: 240,
 },
@@ -21,7 +21,7 @@ const project = [{
     name: "Tenzies",
     description: "Tenzies is a small game built with React and Vite. The goal is to get all the dice to show the same number. You can hold dice you want to keep and roll the others until you win!",
     code: "React",
-    link: "",
+    link: "https://www.matteogranchelli.it/https://www.matteogranchelli.it/assembly-endgame-logo.png",
     level: 60,
     hp: 187,
 }
