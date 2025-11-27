@@ -47,6 +47,8 @@
     padding: 5px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    position: relative;
 }
 
 .trainerInfo li:nth-of-type(3) {
@@ -68,4 +70,32 @@
     width: 40%;
     height: 200px;
     background-color: red;
+}
+
+.trainerCardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.trainerCardHeader .icon {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url("./../../assets/pokeball-star.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.trainerInfo .italy-flag {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url("./../../assets/italy-flag.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 3px;
 }

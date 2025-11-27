@@ -15,7 +15,7 @@ export default function TrainerInfo() {
             </li>
             <li>
                 <p>Based:</p>
-                <p>Pescara</p>
+                <p>Pescara<i className="italy-flag"></i></p>
             </li>
             <li>
                 <p>Time:</p>
